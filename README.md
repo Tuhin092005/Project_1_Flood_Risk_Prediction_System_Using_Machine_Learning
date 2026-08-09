@@ -116,7 +116,7 @@ Performance Evaluation
 ## 📁 Project Structure
 
 ```
-Flood-Prediction-Using-Machine-Learning/
+Project_1_Flood_Risk_Prediction_System_Using_Machine_Learning/
 │
 ├── Flood_Risk_Prediction_System.ipynb
 ├── Flood_Risk_Prediction_System.py
