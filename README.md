@@ -120,11 +120,15 @@ Flood-Prediction-Using-Machine-Learning/
 │
 ├── Flood_Risk_Prediction_System.ipynb
 ├── Flood_Risk_Prediction_System.py
-├── flood_risk_india.csv
+├── Dataset/
+│   ├── flood_risk_india.csv
+├── images/
+│   ├── confusion_matrix.png
+│   ├── feature_importance.png
+│   └── model_accuracy_comparison.png
 ├── requirements.txt
 ├── README.md
-├── LICENSE
-└── images/
+└── LICENSE
 ```
 
 ---
