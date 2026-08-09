@@ -123,9 +123,9 @@ Project_1_Flood_Risk_Prediction_System_Using_Machine_Learning/
 ├── Dataset/
 │   ├── flood_risk_india.csv
 ├── images/
-│   ├── Confusion_Matrix.png
-│   ├── Feature_Importance.png
-│   └── Model_Accuracy_Comparison.png
+│   ├── confusion_matrix.png
+│   ├── feature_importance.png
+│   └── model_accuracy_comparison.png
 ├── requirements.txt
 ├── README.md
 └── LICENSE
