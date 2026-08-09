@@ -118,19 +118,13 @@ Performance Evaluation
 ```
 Flood-Prediction-Using-Machine-Learning/
 │
-├── flood_prediction.py
-├── Flood_Prediction_Analysis.ipynb
-├── flood_risk_dataset_india.csv
+├── Flood_Risk_Prediction_System.ipynb
+├── Flood_Risk_Prediction_System.py
+├── flood_risk_india.csv
 ├── requirements.txt
 ├── README.md
-│
-├── model/
-│   └── flood_model.pkl
-│
+├── LICENSE
 └── images/
-    ├── confusion_matrix.png
-    ├── feature_importance.png
-    └── model_accuracy.png
 ```
 
 ---
