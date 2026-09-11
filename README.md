@@ -181,33 +181,71 @@ Run all cells.
 
 ---
 
-## 📈 Sample Prediction
+## 📈 Sample Predictions
 
-Input:
+The model predicts flood risk using two different input scenarios.
 
-```
+### 🧪 Example Prediction 1 (High Flood Risk)
+
+**Input**
+
+```text
 Latitude             : 22.57
 Longitude            : 88.36
 Rainfall             : 250 mm
 Temperature          : 30°C
 Humidity             : 85%
-River Discharge      : 700 m³/s
-Water Level          : 6.5 m
-Elevation            : 12 m
-Land Cover           : Urban
-Soil Type            : Clay
+River Discharge      : 500 m³/s
+Water Level          : 8 m
+Elevation            : 10 m
+Land Cover           : 2
+Soil Type            : 1
 Population Density   : 5000
-Infrastructure       : Good
-Historical Floods    : Yes
+Infrastructure       : 1
+Historical Floods    : 3
 ```
 
-Output:
+**Expected Output**
 
-```
+```text
 Prediction : 1
 
 Flood Risk : HIGH
 ```
+
+> A location with heavy rainfall, high humidity, high water level, and multiple historical floods is predicted as **High Flood Risk**.
+
+---
+
+### 🧪 Example Prediction 2 (Low Flood Risk)
+
+**Input**
+
+```text
+Latitude             : 23.50
+Longitude            : 87.50
+Rainfall             : 40 mm
+Temperature          : 28°C
+Humidity             : 55%
+River Discharge      : 80 m³/s
+Water Level          : 2 m
+Elevation            : 120 m
+Land Cover           : 1
+Soil Type            : 2
+Population Density   : 300
+Infrastructure       : 3
+Historical Floods    : 0
+```
+
+**Expected Output**
+
+```text
+Prediction : 0
+
+Flood Risk : LOW
+```
+
+> A location with low rainfall, lower humidity, higher elevation, and no historical floods is predicted as **Low Flood Risk**.
 
 ---
 
